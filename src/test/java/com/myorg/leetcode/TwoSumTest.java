@@ -39,5 +39,4 @@ public class TwoSumTest{
         assertArrayEquals(expectedOutput,answer);
     }
 
-
 }
