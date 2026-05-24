@@ -24,11 +24,11 @@ public class MergeStringsAlternatively {
             lwp++;
             rwp++;
         }
-        while(w1.length() >w2.length() && lwp < w1.length()){
+        while(lwp < w1.length()){
             finalString.append(w1.charAt(lwp));
             lwp++;
         }
-        while(w2.length() >w1.length() && rwp < w2.length()){
+        while(rwp < w2.length()){
             finalString.append(w2.charAt(rwp));
             rwp++;
         }
