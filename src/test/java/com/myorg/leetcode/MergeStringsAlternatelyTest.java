@@ -8,18 +8,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MergeStringsAlternatelyTest {
 
 
-    private MergeStringsAlternately mergeStringsAlternately;
+    private MergeStringsAlternatively mergeStringsAlternatively;
 
     @BeforeEach
     void setUp(){
-        mergeStringsAlternately = new MergeStringsAlternately();
+        mergeStringsAlternatively = new MergeStringsAlternatively();
     }
 
     @Test
     void mergeStringsEqualLength(){
         String w1 = "win"; String w2= "fun";
         String expected = "wfiunn";
-        String actual = mergeStringsAlternately.mergeAlternately(w1,w2);
+        String actual = mergeStringsAlternatively.mergeAlternately(w1,w2);
 
         assertEquals(expected,actual);
 
@@ -29,7 +29,7 @@ public class MergeStringsAlternatelyTest {
     void mergeStringsW1Longer(){
         String w1 = "wins"; String w2= "fun";
         String expected = "wfiunns";
-        String actual = mergeStringsAlternately.mergeAlternately(w1,w2);
+        String actual = mergeStringsAlternatively.mergeAlternately(w1,w2);
 
         assertEquals(expected,actual);
 
@@ -39,7 +39,7 @@ public class MergeStringsAlternatelyTest {
     void mergeStringsW2Longer(){
         String w1 = "wi"; String w2= "fison";
         String expected = "wfiison";
-        String actual = mergeStringsAlternately.mergeAlternately(w1,w2);
+        String actual = mergeStringsAlternatively.mergeAlternately(w1,w2);
 
         assertEquals(expected,actual);
 
