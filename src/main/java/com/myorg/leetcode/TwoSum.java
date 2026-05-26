@@ -9,7 +9,8 @@ import java.util.HashMap;
 @RequiredArgsConstructor
 public class TwoSum {
     /**
-     *  Find the indices that sums the of the target value
+     *  Find the indices that sums the of the target value-the naive solution is O(n^2), but can be
+     *  optimized using hashmap(average ( O(1) average lookup and reducing overall time complexity to O(n)
      * @param nums
      * @param target
      * @return array of indices of two summation of two-sum values
