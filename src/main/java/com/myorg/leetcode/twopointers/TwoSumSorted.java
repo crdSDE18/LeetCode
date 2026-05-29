@@ -16,6 +16,7 @@ public class TwoSumSorted {
         while(lp <rp){
             int currentSum = numbers[lp] + numbers[rp];
             if(currentSum == target){
+                // one indexed via instructions
                 return new int[]{lp+1,rp+1};
             } else if (currentSum < target) {
                 lp++;
