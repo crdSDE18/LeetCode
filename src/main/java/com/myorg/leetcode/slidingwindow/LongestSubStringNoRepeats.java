@@ -1,4 +1,4 @@
-package com.myorg.leetcode.twopointers;
+package com.myorg.leetcode.slidingwindow;
 
 import lombok.RequiredArgsConstructor;
 

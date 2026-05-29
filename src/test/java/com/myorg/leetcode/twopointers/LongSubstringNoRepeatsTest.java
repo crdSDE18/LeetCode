@@ -1,6 +1,6 @@
 package com.myorg.leetcode.twopointers;
 
-import com.myorg.leetcode.twopointers.LongestSubStringNoRepeats;
+import com.myorg.leetcode.slidingwindow.LongestSubStringNoRepeats;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
