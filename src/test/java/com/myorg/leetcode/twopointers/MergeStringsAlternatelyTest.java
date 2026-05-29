@@ -1,5 +1,6 @@
-package com.myorg.leetcode;
+package com.myorg.leetcode.twopointers;
 
+import com.myorg.leetcode.twopointers.MergeStringsAlternatively;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

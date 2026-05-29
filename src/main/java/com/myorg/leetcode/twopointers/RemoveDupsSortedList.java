@@ -1,4 +1,4 @@
-package com.myorg.leetcode;
+package com.myorg.leetcode.twopointers;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,6 +1,6 @@
-package com.myorg.leetcode;
+package com.myorg.leetcode.twopointers;
 
-import lombok.RequiredArgsConstructor;
+import com.myorg.leetcode.twopointers.TwoSumSorted;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
