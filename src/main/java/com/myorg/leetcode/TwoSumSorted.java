@@ -1,0 +1,22 @@
+package com.myorg.leetcode;
+
+public class TwoSumSorted {
+
+    public int[] twoSumSorted(int[] numbers, int target){
+        int lp=0, rp= numbers.length - 1;
+
+        while(lp <rp){
+            int sum = numbers[lp] + numbers[rp];
+            if(sum == target){
+                return new int[]{lp+1,rp+1};
+            } else if (sum < target) {
+                lp++;
+            }
+            else{
+                rp--;
+            }
+        }
+        return new int[]{0,0};
+    }
+
+}
