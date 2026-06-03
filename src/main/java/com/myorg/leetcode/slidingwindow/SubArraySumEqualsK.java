@@ -17,17 +17,15 @@ public class SubArraySumEqualsK {
         //import this allows base case for currentSum - k = 0 is found;
         prefixSumMap.put(0, 1);
 
-        int currentSum = 0;
-        int totalSubArraySum = 0;
-        int timesSumSeenBefore = 0;
+        int sum = 0;
+        int subarrayCount = 0;
         for (int num : nums) {
-            currentSum +=num;
-            if (prefixSumMap.containsKey(currentSum - k)) {
-                timesSumSeenBefore = prefixSumMap.get(currentSum-k);
-                totalSubArraySum += timesSumSeenBefore;
+           sum +=num;
+            if (prefixSumMap.containsKey(sum - k)) {
+                subarrayCount += prefixSumMap.get(sum-k);
             }
-            prefixSumMap.put(currentSum, prefixSumMap.getOrDefault(currentSum, 0) + 1);
+            prefixSumMap.put(sum, prefixSumMap.getOrDefault(sum, 0) + 1);
         }
-        return totalSubArraySum;
+        return subarrayCount;
     }
 }
