@@ -1,4 +1,4 @@
-package com.myorg.leetcode.twopointers;
+package com.myorg.leetcode.slidingwindow;
 
 import com.myorg.leetcode.slidingwindow.LongestSubStringNoRepeats;
 import org.junit.jupiter.api.BeforeEach;
