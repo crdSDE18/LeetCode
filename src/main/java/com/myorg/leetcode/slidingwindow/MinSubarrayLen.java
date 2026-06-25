@@ -8,7 +8,7 @@ public class MinSubarrayLen {
      * then calculate the length of that subArray then increment left for
      * any other subArrays >= sum;
      *
-     * Integer.MAX_VALUE keeps track if the sum is not found in the subArray. If at the end of my for loop minLen ==
+     * Integer.MAX_VALUE  is a placeholder value in case sum is not found in any subArray. If at the end of my for loop minLen ==
      * Integer.MAX_VALUE is never found.
      *
      * space complexity O(1)
