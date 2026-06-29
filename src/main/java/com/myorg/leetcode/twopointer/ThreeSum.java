@@ -1,4 +1,4 @@
-package com.myorg.leetcode.twopointers;
+package com.myorg.leetcode.twopointer;
 
 import java.util.ArrayList;
 import java.util.Arrays;

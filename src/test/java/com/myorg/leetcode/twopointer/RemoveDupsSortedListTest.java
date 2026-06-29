@@ -1,6 +1,5 @@
-package com.myorg.leetcode.twopointers;
+package com.myorg.leetcode.twopointer;
 
-import com.myorg.leetcode.twopointers.RemoveDupsSortedList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

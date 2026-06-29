@@ -1,4 +1,4 @@
-package com.myorg.leetcode.twopointers;
+package com.myorg.leetcode.twopointer;
 
 public class TwoSumSorted {
 

@@ -1,4 +1,4 @@
-package com.myorg.leetcode.twopointers;
+package com.myorg.leetcode.twopointer;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
